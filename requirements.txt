@@ -1,4 +1,2 @@
-flask, requests
-
-#i hope thats all of em
-# do i even need requests
+Flask==3.1.0
+requests==2.32.3
