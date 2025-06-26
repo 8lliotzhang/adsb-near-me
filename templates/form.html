@@ -13,11 +13,13 @@
             error();
         }
     }
+
+    function success(ok){
         
-    function success(){
         console.log("yayyy");
-        const lat = position.coords.latitude;
-        const lon = position.coords.longitude;
+        const crd = ok.coords;
+        const lat = crd.latitude;
+        const lon = crd.longitude;
         document.querySelector('input[name="num2"]').value = lat;
         document.querySelector('input[name="num1"]').value = lon; 
     }
