@@ -33,6 +33,7 @@ a{
 }
 
 button{
+    font-family: monospace;
     font-size: 100%;
     padding:5px;
     border-radius: 5px;
